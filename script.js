@@ -15,7 +15,7 @@ const randomx = Math.floor(Math.random() * caracters.length)
 
 password += caracters.charAt(randomx)
 
-/* password = password + charset.charAt(randomIndex) */
+/* password = password + charset.charAt(randomx) */
     }
 
 passwordInput.value = password;
